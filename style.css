@@ -687,6 +687,10 @@ p {
     font-size: 16px;
 }
 
+.color-text{
+    color:#000000
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -766,6 +770,9 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .avatar {
