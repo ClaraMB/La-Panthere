@@ -771,8 +771,6 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
 }
 
 .avatar {
@@ -1066,5 +1064,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .portfolio-row {
+        margin-bottom: 44px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
     }
 }
